@@ -126,7 +126,7 @@ class account extends React.Component {
                     <Form onSubmit={this.onwidMoneySubmit} style={{marginLeft: '20px', marginTop:'50px'}}>
                         <Form.Group>
                             <h4 style={{fontWeight: 'inherit', fontSize: '20px', textAlign: 'left'}}> Enter ID</h4>
-                            <input placeholder="Enter the Acount ID" id="accountId"
+                            <input placeholder="Enter the Account ID" id="accountId"
                                           onChange={(e) => this.setState({accountId: e.target.value})}/>
                             <h4 style={{fontWeight: 'inherit', fontSize: '20px', textAlign: 'left'}}> Enter Amount</h4>
                             <input placeholder="Enter the Amount" id="balance"
